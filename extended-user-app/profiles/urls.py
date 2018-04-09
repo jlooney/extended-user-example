@@ -1,0 +1,14 @@
+# pages/urls.py
+from django.urls import path
+from django.conf.urls import url
+
+from . import views
+
+urlpatterns = [
+    url(
+        r'users/(?P<username>\w+)$',
+        views.UserProfileView.as_view(),
+        name='user_profile',
+    ),
+    url('^$', views.HomePageView.as_view(), name='home'),
+]

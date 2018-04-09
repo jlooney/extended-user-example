@@ -1,0 +1,7 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Viewing User {{ viewed_user.username }}</h1>
+<p>{{ viewed_user.profile.bio }}</p>
+{% endblock %}
