@@ -1,2 +1,2 @@
 # extended-user-example
-Example for extending the user model in django
+This repo is an incomplete app that will be completed during a webinar demonstrating how to extend the user model in Django. 
