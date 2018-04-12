@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import TemplateView, View
 from django.contrib.auth.models import User
-from profiles.models import Profile
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
